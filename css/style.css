@@ -49,7 +49,9 @@ margens
     box-sizing: content-box;
     overflow-x: hidden;
     overflow-y: auto;
-    padding: 5%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .titulo-home {
@@ -64,10 +66,15 @@ margens
 
 .bt-servicos, .bt-totem {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     color: white !important;
-    border-radius: 25px;
+    border-radius: 10px;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 91%;
+    padding: 8% 10% 8% 10% !important;
 }
 
 .bt-servicos {
@@ -286,7 +293,7 @@ footer {
         margin: auto;
     }
     .bt-servicos, .bt-totem {
-        font-size: calc(8px + (8/1200) * 100 * 1vw);
+        font-size: calc(15px + (8/1200) * 100 * 1vw);
     }
     /*
  ---------------------Section Two------------------
