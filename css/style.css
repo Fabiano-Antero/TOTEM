@@ -30,6 +30,7 @@ margens
 .mb-6 {
     margin-bottom: 20mm !important;
 }
+
 .mb-7 {
     margin-bottom: 35mm !important;
 }
@@ -49,9 +50,14 @@ margens
     box-sizing: content-box;
     overflow-x: hidden;
     overflow-y: auto;
-    padding-top: 2%;
+    padding-top: 7%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 9%;
+}
+
+.logo {
+    width: 20%;
 }
 
 .titulo-home {
@@ -256,12 +262,6 @@ footer {
     width: 12mm;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 1080px) {
     #sectionOne {
         background: url(../img/backgroudST12_TOP.png)25%;
@@ -277,20 +277,27 @@ footer {
         padding: 5%;
     }
     .logo {
+        width: 65%;
         display: block;
-        margin: auto;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .titulo-home {
         font-weight: 700;
-        font-size: calc(12px + (8/1200) * 100 * 1vw);
+        font-size: calc(13px + (8/1200) * 100 * 1vw);
         text-align: center;
         margin: auto;
+        padding-top: 4%;
+        padding-bottom: 7%;
     }
     .text-home {
         font-weight: 600;
-        font-size: calc(12px + (8/1200) * 100 * 1vw);
+        font-size: calc(11px + (8/1200) * 100 * 1vw);
         text-align: center;
         margin: auto;
+        padding-top: 4%;
+        padding-bottom: 7%;
     }
     .bt-servicos, .bt-totem {
         font-size: calc(15px + (8/1200) * 100 * 1vw);
@@ -308,7 +315,6 @@ footer {
         background-size: cover;
         box-sizing: content-box;
         padding: 5%;
-        
     }
     .carousel-control-prev-icon {
         background-image: url(../img/Icon-ionic-ios-arrow-forward2.svg);
@@ -366,33 +372,28 @@ footer {
         display: block;
         margin: auto;
     }
-/*
+    /*
  ---------------------Sectionthree------------------
 */
-    .titulo-map, .subTitulo-map{
+    .titulo-map, .subTitulo-map {
         padding-left: 7mm;
         padding-right: 7mm;
     }
-
-    .titulo-map{
+    .titulo-map {
         font-weight: 700;
         font-size: 27px;
         margin-top: 5%;
     }
-    
-
     .section3 {
         height: 109vh;
     }
-    
-    .subTitulo-map{
+    .subTitulo-map {
         color: #5E5C59;
         font-weight: 600;
         font-size: 20px;
         margin-top: 7%;
-    
     }
-    .pin{
+    .pin {
         width: 7mm;
     }
     iframe {
@@ -402,31 +403,25 @@ footer {
         overflow: hidden;
         clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0% 100%);
     }
-/*
+    /*
  ---------------------Footer------------------
 */
-
     footer {
         background-color: #F37021;
         font-weight: 600;
         color: white;
         height: auto;
-
     }
-    
     .energisa {
         width: 35mm;
     }
-    
     .text-redes-sociais {
         font-size: 14px;
     }
-    
     .face, .insta, .twitter {
         padding: 2mm;
         width: 12mm;
     }
-    
 }
 
 /*
